@@ -163,8 +163,6 @@ return new class ( $this, $lerma -> {$lerma -> driver} ) implements Aero\Interfa
 	
 	public function rowCount(): int
 	{
-		var_dump($this -> result() -> num_rows);
-		
 		return $this -> result() -> num_rows;
 	}
 	
